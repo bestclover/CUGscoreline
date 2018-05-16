@@ -16,4 +16,4 @@ def getInfo():
     info.extend(normal)
     info.extend(art)
     info.extend(musice)
-    return json.dumps(info)
+    return json.dumps(info, ensure_ascii=False)
